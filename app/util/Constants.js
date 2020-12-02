@@ -1,0 +1,17 @@
+'use strict';
+
+export const ACTIONS = {
+    NETWORK_STATUS_CHANGED: 'NETWORK_STATUS_CHANGED',
+    
+    // DashBoard Actions
+    RESET_ALL_LOADING: 'RESET_ALL_LOADING',
+    RESET_REFRESH_LOADING: 'RESET_REFRESH_LOADING',
+    USER_DATA_LOADED: 'USER_DATA_LOADED',
+    UPDATE_USER_DATA: 'UPDATE_USER_DATA',
+    TASK_DATA_LOADED: 'TASK_DATA_LOADED',
+    UPDATE_TASK_DATA: 'UPDATE_TASK_DATA',
+};
+export const VALIDATION_MSG = {
+    NO_INTERNET: 'Please check your internet connectivity.',
+    REQ_FAILED: 'Request failed.',
+};
